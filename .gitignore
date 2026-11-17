@@ -1,0 +1,16 @@
+# Your own bitstream (add it deliberately if you want to publish it)
+data/*
+!data/README.md
+
+# Outputs of your own runs (published results live in results/reference/)
+results/run/
+
+# NIST vectors are downloaded on first run and checked by SHA-256
+acvp/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+venv/

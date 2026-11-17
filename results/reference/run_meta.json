@@ -1,0 +1,21 @@
+{
+  "stream_sha256": "b48330da2c0d79473df3a5cc815d5249dcd6fa4e0a72144b1e1eae94551c2b77",
+  "stream_format": "ascii",
+  "stream_bits": 1572864,
+  "start_bit": 146072,
+  "trials_per_set": 500,
+  "param_sets": [
+    "ML-KEM-512",
+    "ML-KEM-768",
+    "ML-KEM-1024"
+  ],
+  "run_control": true,
+  "environment": {
+    "platform": "Windows, x86-64, Intel Core i7-1355U",
+    "liboqs": "0.16.0 (mlkem-native, portable C build)",
+    "liboqs-python": "0.16.0.2",
+    "kyber-py": "1.2.0"
+  },
+  "run_date": "2026-11-03",
+  "reproduced": "All 1500 QRNG shared keys recomputed from the stream with liboqs 0.16.0 (AVX2 build, Linux): 1500/1500 identical"
+}

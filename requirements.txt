@@ -1,0 +1,5 @@
+# Versions used to produce results/reference/.
+# liboqs-python builds liboqs (C) on first import; see GUIDE.md, "Installation".
+liboqs-python==0.16.0.2
+kyber-py==1.2.0
+numpy>=1.24
